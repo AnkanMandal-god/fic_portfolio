@@ -151,6 +151,10 @@ section {
     font-weight: 600;
 }
 
+.about .section-title {
+    font-size: 3rem;
+}
+
 /* About Section */
 .about {
     background-color: #f8f9fa;
@@ -161,6 +165,10 @@ section {
     grid-template-columns: 1fr 2fr;
     gap: 3rem;
     align-items: center;
+}
+
+.about-image {
+    text-align: center;
 }
 
 .profile-pic {
@@ -175,6 +183,11 @@ section {
     margin-bottom: 2rem;
     color: #555;
     line-height: 1.8;
+}
+
+.about-text h3 {
+    margin-left: 1rem;
+    font-size: 1.3rem;
 }
 
 .skills {
