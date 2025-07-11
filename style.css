@@ -115,6 +115,13 @@ body {
     color: white;
 }
 
+/* Add padding on larger screens to shift text away from left edge */
+@media (min-width: 768px) {
+    .hero-text {
+        padding-left: 12%;
+    }
+}
+
 .hero-title {
     font-size: 4rem;
     font-weight: 700;
