@@ -436,6 +436,23 @@ section {
         padding: 2rem 0;
     }
 
+    .nav-menu .nav-link {
+        padding: 1rem 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        margin: 0;
+        display: block;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+
+    .nav-menu .nav-link:last-child {
+        border-bottom: none;
+    }
+
+    .nav-menu .nav-link:hover {
+        background-color: rgba(255, 92, 92, 0.02);
+    }
+
     .nav-menu.active {
         left: 0;
     }
