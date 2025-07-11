@@ -1,16 +1,215 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhea Kapoor - UX Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Rhea Kapoor</h3>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Header/Homepage -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Rhea Kapoor</h1>
+                <p class="hero-tagline">Designing Intuitive User Experiences</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b1e5?w=400&h=400&fit=crop&crop=face" alt="Rhea Kapoor" class="profile-pic">
+                </div>
+                <div class="about-text">
+                    <p class="bio">
+                        I'm a passionate UX designer with 5+ years of experience creating user-centered digital experiences. 
+                        I believe in the power of research-driven design and love solving complex problems through intuitive interfaces. 
+                        My approach combines creativity with analytical thinking to deliver designs that not only look great but also drive business results.
+                    </p>
+                    <h3>Skills</h3>
+                    <div class="skills">
+                        <span class="skill-tag">UX Research</span>
+                        <span class="skill-tag">Wireframing</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Usability Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop" alt="E-commerce App">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Mobile App</h3>
+                        <p>Redesigned the checkout flow for a major retail app, increasing conversion rates by 35% through user research and iterative testing.</p>
+                        <div class="project-tools">
+                            <span class="tool">Figma</span>
+                            <span class="tool">Principle</span>
+                            <span class="tool">Usability Testing</span>
+                        </div>
+                        <a href="#" class="project-link">View Case Study</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop" alt="Financial Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>Financial Dashboard</h3>
+                        <p>Created an intuitive dashboard for investment management, simplifying complex financial data into actionable insights for users.</p>
+                        <div class="project-tools">
+                            <span class="tool">Adobe XD</span>
+                            <span class="tool">After Effects</span>
+                            <span class="tool">User Interviews</span>
+                        </div>
+                        <a href="#" class="project-link">View Case Study</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=300&fit=crop" alt="Healthcare App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Healthcare Patient Portal</h3>
+                        <p>Designed a comprehensive patient portal that improved appointment scheduling efficiency by 50% and enhanced patient satisfaction scores.</p>
+                        <div class="project-tools">
+                            <span class="tool">Sketch</span>
+                            <span class="tool">InVision</span>
+                            <span class="tool">A/B Testing</span>
+                        </div>
+                        <a href="#" class="project-link">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>UX Audit</h3>
+                    <p>Comprehensive analysis of your current user experience to identify pain points and opportunities for improvement.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Wireframe Prototypes</h3>
+                    <p>Low to high-fidelity prototypes that bring your ideas to life and help validate concepts before development.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>High-Fidelity UI Design</h3>
+                    <p>Pixel-perfect designs that combine beautiful aesthetics with functional user interfaces for optimal user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to start your next project? I'd love to hear about your ideas and discuss how we can bring them to life.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>rhea.kapoor@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Rhea Kapoor. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
